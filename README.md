@@ -89,7 +89,6 @@ npm run build          # frontend → dist/
 cd server && npm start # backend, e.g. on Render/Railway
 ```
 
-Deploy `dist/` to Vercel/Netlify, deploy `/server` to Render/Railway/a small VPS with
+Deploy `Render
 `MONGO_URI`, `CLIENT_URL`, SMTP vars, and `ADMIN_KEY` set as environment variables. If
 frontend and backend are on different domains, point the frontend's `/api` calls at
-your deployed backend URL (e.g. via a Vite env var) instead of relying on the dev proxy.
