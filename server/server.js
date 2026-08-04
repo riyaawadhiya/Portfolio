@@ -3,7 +3,7 @@ import mongoose from "mongoose";
 import cors from "cors";
 import dotenv from "dotenv";
 import contactRouter from "./src/contact.router.js";
-import { verifySmtp } from "./src/contact.controller.js";
+import { verifySmtp } from "./src/email.js";
 
 dotenv.config();
 
