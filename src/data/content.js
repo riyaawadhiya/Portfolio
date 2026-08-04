@@ -128,7 +128,7 @@ export const projects = [
     description:
       "Cross-platform mobile application built during an engineering internship at Ouranos Robotics — highly responsive UI components integrated with live REST APIs.",
     gradient: "from-[#F4C542] via-[#8a6d1f] to-[#151515]",
-    live: null,
+    live: "null",
     github: null,
     problem:
       "The team needed a responsive, cross-platform mobile UI that could integrate cleanly with existing REST APIs without duplicating logic per platform.",
@@ -160,7 +160,7 @@ export const projects = [
     description:
       "Two production Shopify stores customized end-to-end — responsive theme layouts, storefront enhancements, and product catalog management via Shopify Admin.",
     gradient: "from-[#D4AF37] via-[#F4C542] to-[#151515]",
-    live: null,
+    live: "https://natchkin.com/",
     github: null,
     problem:
       "Two independent store owners needed responsive, on-brand storefronts and ongoing catalog management without a dedicated in-house developer.",
@@ -282,7 +282,6 @@ export const availabilityCards = [
 
 export const contactCards = [
   { label: "Email", value: profile.email, icon: "Mail" },
-  { label: "Phone", value: profile.phone, icon: "Phone" },
   { label: "Location", value: profile.location, icon: "MapPin" },
   { label: "Availability", value: "Full-time & Freelance", icon: "CalendarCheck" },
   { label: "Response Time", value: "Within 24 hours", icon: "Clock" },

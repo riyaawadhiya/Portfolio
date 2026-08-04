@@ -107,14 +107,14 @@ export default function Contact() {
             >
               <Linkedin size={17} />
             </a>
-            <a
+            {/* <a
               href={profile.socials.portfolio}
               data-cursor-hover
               className="w-11 h-11 rounded-full border border-white/15 flex items-center justify-center hover:border-gold hover:text-gold transition-colors"
               aria-label="Portfolio"
-            >
-              <Globe size={17} />
-            </a>
+            > */}
+              {/* <Globe size={17} />
+            </a> */}
           </div>
         </motion.div>
 
