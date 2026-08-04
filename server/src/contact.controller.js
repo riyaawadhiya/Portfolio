@@ -41,6 +41,12 @@ export async function verifySmtp() {
   }
   try {
     await getTransporter().verify();
+    console.log({
+  host: process.env.SMTP_HOST,
+  port: process.env.SMTP_PORT,
+  user: process.env.SMTP_USER,
+  hasPassword: !!process.env.SMTP_PASS,
+});
     console.log("✅ SMTP: connected and ready to send");
   } catch (err) {
     console.error("❌ SMTP verification failed:", err.message);
