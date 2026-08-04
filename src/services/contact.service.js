@@ -6,7 +6,7 @@ import axiosInstance from "../lib/axios";
  * @returns {Promise<object>} response data
  */
 export const sendContactMessage = async (formData) => {
-  const { data } = await axiosInstance.post("/contact", formData);
+  const { data } = await axiosInstance.post("/api/contact", formData);
   return data;
 };
 
