@@ -2,9 +2,8 @@ import { useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import * as Icons from "lucide-react";
 import { Send, CheckCircle2, AlertCircle, Github, Linkedin, Globe } from "lucide-react";
-import axios from "axios";
 import { profile, contactCards } from "../data/content.js";
-import { sendContactMessage } from "../services/contactService";
+import { sendContactMessage, getErrorMessage } from "../services/contact.service";
 
 const initialForm = { name: "", email: "", subject: "", message: "", company: "" }; // "company" = honeypot
 
@@ -41,15 +40,7 @@ export default function Contact() {
       setForm(initialForm);
     } catch (err) {
       setStatus("error");
-      if (axios.isAxiosError(err)) {
-        setErrorMsg(
-          err.code === "ERR_NETWORK"
-            ? "Can't reach the server — make sure the backend (server/) is running."
-            : err.response?.data?.error || "Something went wrong. Please try again."
-        );
-      } else {
-        setErrorMsg("Something went wrong. Please try again.");
-      }
+      setErrorMsg(getErrorMessage(err));
     }
   };
 
