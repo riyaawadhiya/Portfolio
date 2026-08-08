@@ -137,21 +137,22 @@ export const projects = [
     result: "Delivered responsive, production-quality screens integrated end-to-end with the backend.",
   },
   {
-    id: "grahak",
-    name: "Grahak — QR-Based Token System",
-    tag: "MERN · React Native · IoT",
-    tech: ["MongoDB", "Express.js", "React Native", "IoT"],
-    description:
-      "Digital token management system for food vendors — QR token generation, real-time order tracking, and an analytics dashboard.",
-    gradient: "from-[#FFD700] via-[#8a6d1f] to-[#151515]",
-    live: null,
-    github: null,
-    problem:
-      "Food vendors needed a faster, digital alternative to paper tokens — with visibility into order status and performance over time.",
-    solution:
-      "Built a MERN + React Native + IoT system generating QR-based tokens, tracking orders in real time, and surfacing the data on an analytics dashboard.",
-    result: "A working token system covering generation, tracking, and reporting in one flow.",
-  },
+  id: "ai-quiz-generator",
+  name: "AI Quiz Generator",
+  tag: "MERN · AI · Full Stack",
+  tech: ["MongoDB", "Express.js", "React.js", "AI"],
+  description:
+    "AI-powered quiz generation platform that creates customized quizzes from user-provided topics or content, with interactive questions and instant results.",
+  gradient: "from-[#FFD700] via-[#8a6d1f] to-[#151515]",
+  live: "https://ai-quiz-generator-frontend-40sy.onrender.com/",
+  github: null,
+  problem:
+    "Creating quizzes manually is time-consuming and makes it difficult to quickly generate different questions based on a specific topic or learning material.",
+  solution:
+    "Built an AI-powered quiz generator that uses user-provided topics or content to dynamically generate quiz questions, allowing users to take quizzes interactively and receive results instantly.",
+  result:
+    "A working AI quiz platform that automates question generation and provides an interactive quiz experience from content to results.",
+},
   {
     id: "shopify",
     name: "OllyPolly & Natchkin — Shopify Stores",
