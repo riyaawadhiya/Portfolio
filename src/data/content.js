@@ -120,22 +120,7 @@ export const projects = [
     result:
       "Shipped a production, multi-vendor marketplace live on both Android and Web, with debugging carried through to deployment.",
   },
-  {
-    id: "bluewave",
-    name: "BlueWave — Cross-Platform Mobile App",
-    tag: "React Native · Expo",
-    tech: ["React Native", "Expo", "Tailwind CSS", "REST API"],
-    description:
-      "Cross-platform mobile application built during an engineering internship at Ouranos Robotics — highly responsive UI components integrated with live REST APIs.",
-    gradient: "from-[#F4C542] via-[#8a6d1f] to-[#151515]",
-    live: "null",
-    github: null,
-    problem:
-      "The team needed a responsive, cross-platform mobile UI that could integrate cleanly with existing REST APIs without duplicating logic per platform.",
-    solution:
-      "Developed UI components in React Native with Expo and Tailwind CSS, reviewing designs with the team and wiring components to live REST endpoints.",
-    result: "Delivered responsive, production-quality screens integrated end-to-end with the backend.",
-  },
+  
   {
   id: "ai-quiz-generator",
   name: "AI Quiz Generator",
@@ -168,6 +153,22 @@ export const projects = [
     solution:
       "Customized themes, built responsive layouts, and managed product catalogs directly through Shopify Admin as a freelance engagement.",
     result: "Two live, production Shopify stores with owner-managed catalogs and a refreshed storefront experience.",
+  },
+  {
+    id: "bluewave",
+    name: "BlueWave — Cross-Platform Mobile App",
+    tag: "React Native · Expo",
+    tech: ["React Native", "Expo", "Tailwind CSS", "REST API"],
+    description:
+      "Cross-platform mobile application built during an engineering internship at Ouranos Robotics — highly responsive UI components integrated with live REST APIs.",
+    gradient: "from-[#F4C542] via-[#8a6d1f] to-[#151515]",
+    live: "null",
+    github: null,
+    problem:
+      "The team needed a responsive, cross-platform mobile UI that could integrate cleanly with existing REST APIs without duplicating logic per platform.",
+    solution:
+      "Developed UI components in React Native with Expo and Tailwind CSS, reviewing designs with the team and wiring components to live REST endpoints.",
+    result: "Delivered responsive, production-quality screens integrated end-to-end with the backend.",
   },
 ];
 
